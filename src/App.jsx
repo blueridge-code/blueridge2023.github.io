@@ -4,6 +4,7 @@ import video1 from "./demo.mp4";
 import video2 from "./demo2.mp4";
 import video3 from "./demo3.mp4";
 import video4 from "./demo4.mp4";
+import Hamburger from "hamburger-react";
 
 const videos = [
     {
@@ -37,9 +38,11 @@ function App() {
         <div className="App">
             <nav>
                 <h2 className="logo">BLUE RIDGE</h2>
-                <button className="btn" onClick={toggleContactScreen}>
-                    Contact
-                </button>
+                <Hamburger
+                    className="btn"
+                    toggled={showContactScreen}
+                    toggle={toggleContactScreen}
+                ></Hamburger>
             </nav>
 
             {showContactScreen ? (
