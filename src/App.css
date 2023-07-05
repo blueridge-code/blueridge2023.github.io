@@ -32,8 +32,8 @@ nav {
 }
 
 .image-container {
-    height: 3.5rem;
-    width: 14rem;
+    /* height: 3.5rem; */
+    width: 13rem;
     /* opacity: 1; */
     /* background-color: #0e3544;
     border-radius: 15px; */
@@ -53,20 +53,32 @@ nav {
     min-width: 100%;
     min-height: 100%;
     object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
 }
-.p-container {
-    /* opacity: 0.2; */
+.background-video.active {
+    opacity: 1;
 }
+
 p {
     position: absolute;
-    bottom: 15%;
+    bottom: 11%;
     left: 10%;
-    color: white;
+
+    /* text-shadow: 1px -2px 0 #0e3544, 1px -1px 0 #0e3544, 1px -1px 0 #0e3544,
+        1px -1px 0 #0e3544; */
+
+    text-shadow: 3px 3px #0e3544;
+    letter-spacing: -4px;
+
     z-index: 1;
+    line-height: 1;
     height: 15rem;
     width: 50rem;
-    font-size: 3rem;
-    font-weight: 700;
+    font-family: Mohave, sans-serif;
+    font-size: 4rem;
+    font-weight: 600;
+    color: #ffffff;
 }
 
 .pagination {
@@ -88,16 +100,16 @@ p {
     background: white;
     opacity: 0.9;
     cursor: pointer;
-    padding-top: 2px;
-    padding-right: 9px;
-    padding-bottom: 13px;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 7px;
     padding-left: 7px;
     background-color: #0e3544;
 }
 
 .dot.active {
     opacity: 1;
-    background-color: #fef0dc;
+    background-color: #ffffff;
 }
 
 .contact-screen {
@@ -139,9 +151,12 @@ p {
     }
 
     p {
-        top: 70%;
+        top: 75%;
         left: 5%;
-        font-size: 1.5rem;
+        font-size: 2rem;
+        letter-spacing: -1px;
+        text-shadow: 2px 2px #0e3544;
+        line-height: 1;
         width: fit-content;
     }
     .background-video {
