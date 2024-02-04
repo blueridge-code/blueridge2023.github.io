@@ -12,7 +12,7 @@
 // const videos = [
 //     {
 //         src: video1,
-//         text: "OUR VALUES INFORM EVERYHTING WE DO",
+//         text: "OUR VALUES INFORM EVERYTHING WE DO",
 //         logo: logo1,
 //     },
 //     {
