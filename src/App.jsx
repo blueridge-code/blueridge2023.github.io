@@ -148,7 +148,7 @@ import video2 from "./demo2.mp4";
 import video3 from "./demo3.mp4";
 import video4 from "./demo4.mp4";
 import video5 from "./demo5.mp4";
-import logo1 from "./New Logo.png";
+import logo1 from "./BlueRidgeLogo.png";
 import Hamburger from "hamburger-react";
 
 const videos = [
